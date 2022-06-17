@@ -31,5 +31,6 @@ int main()
         glfwSwapBuffers(window);
         glfwWaitEvents();
     }
+    glfwTerminate();
     return 0;
 }
